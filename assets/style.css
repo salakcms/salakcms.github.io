@@ -1,5 +1,12 @@
 body {
-    background-image: url("background.png");
+    background-image: url("background.png"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed; 
+    background-position: center center;
+    background-repeat: repeat;
     color: #fff;
 }
 
